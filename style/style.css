@@ -213,11 +213,9 @@ span{
     margin-left: 280px;
 }
 @media screen and (max-width:576px){
-   .first-section{
-    grid-template-columns: repeat(1,1fr);
-   } 
    .home-page{
     grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
    }
    .play-area{
     grid-template-columns: repeat(1,1fr);
@@ -231,6 +229,9 @@ span{
    .view-section{
     display: none;
    }
+   footer{
+    grid-template-columns: repeat(1,1fr);
+   }
 }
 @media screen and (min-width:576px) and (max-width:992px){
     .first-section{
@@ -238,5 +239,14 @@ span{
        } 
        .home-page{
         grid-template-columns: repeat(2, 1fr);
+       }
+       .play-area2{
+        grid-template-columns: repeat(2,1fr);
+       }
+       .nav-area2{
+        display: none;
+       }
+       .view-section{
+        grid-template-columns: repeat(1,1fr);
        }
 }
