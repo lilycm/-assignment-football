@@ -72,9 +72,13 @@ main{
     height: 312px;
     background-color: rgb(94, 210, 245);
     border-radius: 5px;
+    margin: 15px;
 }
 .menus{
     padding: 10px;
+}
+.menu{
+    margin: 30px;
 }
 .menus .menu a{
     text-decoration: none;
