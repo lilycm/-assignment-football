@@ -63,26 +63,25 @@ main{
 .nav-area{
     width: 252px;
     height: 312px;
-    background-color: aquamarine;
+    background-color: rgb(94, 210, 245);
     border-radius: 5px;
-   
+    margin: 10px;
 }
-
-.menu{
-    display: flex;
+.menus{
+    padding: 10px;
+}
+.menus .menu a{
+    text-decoration: none;
+    display: grid;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
-    padding: 10PX;
+    padding: 10px;
     margin: 10px;
     border-radius: 5px;
 }
-.menu a{
-    text-decoration: none;
-    color: rgb(0, 217, 255);
-   
-}
+
 .football-field{
     width: 252px;
     height: 362px;
@@ -103,4 +102,29 @@ main{
 .football-detail{
     padding-left: 10px;
     margin-top: 15px;
+}
+/* third section start */
+.view-sction{
+    top: 100px;
+}
+
+/* footer section start */
+footer{
+    background-color: rgb(94, 210, 245) ;
+    position: relative;
+    top: 130px;
+}
+footer h1{
+    text-align: center;
+}
+.footer-item{
+    text-align: center;
+}
+.footer-item a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.social-icon img{
+    width: 50px;
 }
