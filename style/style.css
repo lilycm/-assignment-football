@@ -4,7 +4,7 @@
 
 
 body{
-    
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 main{
@@ -29,6 +29,9 @@ main{
     padding: 25px;
     color: aliceblue;
     font-size: 30px;
+}
+.section-img img{
+    height: 500px;
 }
 .pragrap,
 .watch-live{
@@ -105,16 +108,6 @@ main{
     margin-top: 15px;
 }
 /* third section start */
-.view-section{
-    width: 500px;
-    height: 200px;
-    border: 2px solid tan;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .view-all a{
     text-decoration: none;
     color: aqua;
@@ -123,17 +116,29 @@ main{
     border-radius: 5px;
     
 }
-
+.view-all{
+    display: flex;
+    top: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 150px;
+}
 /* footer section start */
 footer{
     background-color: rgb(94, 210, 245) ;
     position: relative;
     top: 130px;
 }
-footer h1{
-    text-align: center;
+.footer-goal{
+    top: 130px;
 }
-.footer-item{
+.footer-gaol h1{
+    
+}
+.footer-item,
+.footer-goal{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,9 +151,15 @@ footer h1{
     color: aliceblue;
 }
 .social-icon img{
-   justify-content: center;
+   width: 50px;
+   margin-left: 20px;
+}
+.social-icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 hr{
    border: solid 1px rgb(209, 209, 209);
-   padding: 0px 60px;
+  margin: 0 40px;
 }
