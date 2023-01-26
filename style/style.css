@@ -1,0 +1,106 @@
+/* google font style */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* first section start */
+.first-section{
+    background-color: rgb(0, 217, 255);
+    border-radius: 5px;
+    width: 1200px;
+    height: 500px;
+}
+.home-page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   justify-content: center;
+}
+.section-title{
+    padding: 25px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.pragrap,
+.watch-live{
+    font-size: 18px;
+}
+.section-title .watch-live a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid aliceblue 2px;
+    padding: 15px;
+    color: aliceblue;
+}
+.watch-live:hover a{
+    background-color: aliceblue;
+    color: rgb(0, 217, 255);
+    border: solid 2px  aliceblue;
+}
+
+/* first section end */
+/* second section start */
+.play-area,
+.play-area2{
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    gap: 15px;
+}
+.play-area2{
+    margin-top: 15px;
+}
+.nav-area{
+    width: 252px;
+    height: 312px;
+    background-color: aquamarine;
+    border-radius: 5px;
+   
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 10PX;
+    margin: 10px;
+    border-radius: 5px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+   
+}
+.football-field{
+    width: 252px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.football-field .play-football img{
+    width: 252px;
+    border-radius: 5px;
+}
+.football-field .football-detail a{
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 7px;
+    border-radius: 6px;
+    color: black;
+}
+.football-detail{
+    padding-left: 10px;
+    margin-top: 15px;
+}
