@@ -66,20 +66,16 @@ main{
 .play-area2{
     margin-top: 15px;
 }
-.nav-area,
-.nav-area2{
-    width: 252px;
-    height: 312px;
-    background-color: rgb(94, 210, 245);
+
+.menus{
+    padding: 10px;
+    width:252px;
+    height:252px;
+    background-color: black;
     border-radius: 5px;
     margin: 15px;
 }
-.menus{
-    padding: 10px;
-}
-.menu{
-    margin: 30px;
-}
+
 .menus .menu a{
     text-decoration: none;
     display: grid;
@@ -87,9 +83,10 @@ main{
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+    color: black;
 }
 
 .football-field{
@@ -214,4 +211,32 @@ span{
     top: 130px;
     grid-column-gap: 30px;
     margin-left: 280px;
+}
+@media screen and (max-width:576px){
+   .first-section{
+    grid-template-columns: repeat(1,1fr);
+   } 
+   .home-page{
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .play-area{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .play-area2{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .nav-area2{
+    display: none;
+   }
+   .view-section{
+    display: none;
+   }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .first-section{
+        grid-template-columns: repeat(2,1fr);
+       } 
+       .home-page{
+        grid-template-columns: repeat(2, 1fr);
+       }
 }
